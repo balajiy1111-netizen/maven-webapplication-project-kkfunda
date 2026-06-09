@@ -11,7 +11,7 @@ node
    def mavenHome= tool name: "maven-3.9.0"
    stage('git checkout')
    {
-      git branch: 'master', url: 'https://github.com/kkdevopsb9/maven-webapplication-project-kkfunda.git'
+      git branch: 'master', url: 'https://github.com/balajiy1111-netizen/maven-webapplication-project-kkfunda.git'
    }
    stage('COMPILE')
    {
