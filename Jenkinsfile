@@ -58,9 +58,9 @@ node
       
       sh """
 
-      curl -u kk:password \
+      curl -u admin:admin \
 --upload-file /var/lib/jenkins/workspace/webapp-Scripted-Way-PL/target/maven-web-application.war \
-"http://3.108.62.23:8080/manager/text/deploy?path=/maven-web-application&update=true"
+"http://98.81.113.84:8080/manager/text/deploy?path=/maven-web-application&update=true"
           
         """
     }
